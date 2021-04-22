@@ -3,6 +3,7 @@ Trabalho acadêmico sobre o período de vacinação.
 Neste trabalho fiz a utilização de classes para representar o cidadão e a vacinação.
 Utilizei a instancia de objetos para criar o ato da vacijnação recebend como parametro um objeto cidadao.
 Dentro do metodo getPeriodoDeVacinacao, utilizei alguns if para determinar o mês de vacinação de acordo com a idade de cada cidaão imputado no sistema:
+
 public void getPeriodoDeVacinacao(Cidadao cidadao) {
 		int idade = cidadao.getIdade();
 		String nome = cidadao.getNome();
